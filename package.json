@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap-typescript",
+  "version": "1.0.0",
+  "description": "Bootstraping a TypeScript Project with jest and eslint (airbnb template)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:cov": "jest --coverage --config jest.config.json --no-cache",
+    "dev": "tsc-watch --onSuccess \"npm start\"",
+    "start": "node ./dist/server.js"
+  },
+  "author": "https://github.com/joaoeduardodev",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
+    "tsc-watch": "^5.0.3",
+    "typescript": "^4.6.3"
+  }
+}
