@@ -1,5 +1,4 @@
-
-import { getAllUsers } from './user.controller';
+import getAllUsers from './user.controller';
 
 describe('UserController', () => {
   describe('when getting all users', () => {

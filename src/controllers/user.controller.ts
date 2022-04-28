@@ -1,3 +1,2 @@
-export const getAllUsers = (): string => {
-    return 'all users';
-  };
+const getAllUsers = (): string => 'all users';
+export default getAllUsers;
