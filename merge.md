@@ -1,1 +1,1 @@
-this is a conflict trigger
+this is a conflict
