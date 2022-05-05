@@ -1,1 +1,1 @@
-this is a conflict
+this is a best conflict trigger
